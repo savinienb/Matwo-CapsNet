@@ -1,9 +1,9 @@
 # Matwo-CapsNet
-Original implementation of the MICCAI 2019 Paper "Matwo-CapsNet: a Multi-Label Semantic Segmentation Capsules Network". 
+Implementation of the MICCAI 2019 Paper "Matwo-CapsNet: a Multi-Label Semantic Segmentation Capsules Network". 
 
 
 ## Matwo-Caps
-<img src="./Images/Matwo-Caps.png" width="200px"/>
+<img src="./Images/Matwo-Caps.png" width="450px"/>
 
 
 ## SRC Multi-Label segmentation Dice score
@@ -13,8 +13,8 @@ Original implementation of the MICCAI 2019 Paper "Matwo-CapsNet: a Multi-Label S
 |       U-Net        |    42K     |       Softmax        |  97.36      | 97.87       | 90.87          | 90.64           | 94.49 |
 |      SegCaps       |   2,129K   |   weighted Softmax   |  21.18      | 35.79       | 4.49           | 2.93            | 32.83 |
 |      SegCaps       |   2,129K   | weighted Spread loss |  30.74      | 0           | 0.06           | 0               | 23.23 |
-| MatVec-CapsNet O_r |    42K     |     Spread loss      |  95.57      | 96.43       | 82.89          | 82.56           | 92.37 |
-| MatVec-CapsNet D_r |    42K     |     Spread loss      |  96.60      | 97.15       | 86.41          | 86.38           | 93.42 |
+| MatVec-CapsNet O_r |    43K     |     Spread loss      |  95.57      | 96.43       | 82.89          | 82.56           | 92.37 |
+| MatVec-CapsNet D_r |    43K     |     Spread loss      |  96.60      | 97.15       | 86.41          | 86.38           | 93.42 |
 |    Matwo-CapsNet   |    43K     |     Spread loss      |  97.01      | 97.45       | 88.32          | 87.82           | 94.37 |
 
 ## Architecture
