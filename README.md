@@ -35,15 +35,15 @@ Run `main_train_and_test.py` to train the network. You can run any of the paper 
 In order to train and test on other datasets, modify the `dataset.py` file. See the example files and documentation for the specific file formats. Set the parameter `save_debug_images = True` in order to see, if the network input images are reasonable.
 
 ## Citation
-If you use this code for your research, please cite our [Paper]():
+If you use this code for your research, please cite our [Paper](https://darkostern.github.io/files/Matwo_CapsNet.pdf):
 
 ```
 @inproceedings{Bonheur2019,
   title     = {Matwo-CapsNet: a Multi-Label Semantic Segmentation Capsules Network},
   author    = {Bonheur, Savinien and {\v{S}}tern, Darko and Payer, Christian and Pienn, Michael and Olschewski, Horst and Urschler, Martin},
-  booktitle = {Medical Image Computing and Computer-Assisted Intervention - {MICCAI} 2019},
-  doi       = {},
-  pages     = {},
+  booktitle = {International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  doi       = {978-3-030-32254-0_74},
+  pages     = {664-672},
   year      = {2019},
 }
 ```
